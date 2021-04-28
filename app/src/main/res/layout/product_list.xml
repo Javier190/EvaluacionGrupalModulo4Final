@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="410dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/imageview_libro"
+        android:layout_width="350dp"
+        android:layout_height="410dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_libro"
+        android:layout_width="292dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="-329dp"
+        android:layout_marginBottom="58dp"
+        android:layout_toRightOf="@+id/imageview_libro"
+        android:textColor="@color/yellow_app"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="dadawdawdwd" />
+
+</RelativeLayout>

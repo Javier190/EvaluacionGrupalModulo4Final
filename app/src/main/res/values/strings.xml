@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EvalGrupalMod4</string>
+    <string name="el_universo_elegante">https://th.bing.com/th/id/R42bb34274168a50b4455aa6ace73bbbd?rik=F4sxQB4RMUgnCA&amp;riu=http%3a%2f%2fwww.lawebdefisica.com%2flibros%2fportadas%2fd0e603d747bd6a01e039230f2e866536.png&amp;ehk=HN%2b269lAkPd4QFVUYOUVh1UmoLdXdoDbuuR7Xm0ccv4%3d&amp;risl=&amp;pid=ImgRaw</string>
+    <string name="el_tejido_cosmos">https://th.bing.com/th/id/R767d7a7c0efe4f02b124fef3084a2294?rik=GxVyXr10SoCsBw&amp;pid=ImgRaw</string>
+    <string name="la_particula_divina">https://2.bp.blogspot.com/-kq4JRsKc7C8/U4IHkYFkJeI/AAAAAAAAA0M/Z13S9iThS6g/s1600/Lederman+Leon+Teresi+Dick+La+particula+divina+Grijalbo+Mondadori+1996_001.jpg</string>
+    <string name="agujeros_negros_netgeo">https://www.rbalibros.com/medio/2019/03/30/los-agujeros-negros_eeb91692_500x641.jpg</string>
+    <string name="label1">El Universo Elegante</string>
+    <string name="label2">El Tejido del Cosmos</string>
+    <string name="label3">La Particula Divina</string>
+    <string name="label4">Agujeros Negros - NetGeo</string>
+    <string name="descr1">Brian Greene nos explica en este libro cómolas grandes teorías de la relatividad y de la mecánica cuántica nos han conducido al mayor problema con que se enfrenta la Física hoy en día: la búsqueda de una ley que unifique a todas las demás, una ley que Einstein persiguió en vano durante treinta años y a la que se le da el nombre de «teoría de supercuerdas». Con maestría, claridad y un profundo conocimiento, Greene nos ofrece en la aportación más brillante que se ha escrito hasta ahora para hacer accesible al gran público este último misterio de la naturaleza</string>
+    <string name="descr2">Un Best Seller imperdible del Fisico Teorico Brian Greene</string>
+</resources>
