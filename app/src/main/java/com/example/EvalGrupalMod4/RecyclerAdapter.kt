@@ -60,6 +60,10 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
                         val intent = Intent(context,Detalle2::class.java)
                         context.startActivity(intent)
                     }
+                    adapterPosition == 2  -> {Toast.makeText(context, libro.title, Toast.LENGTH_SHORT).show()
+                        val intent = Intent(context,Detalle3::class.java)
+                        context.startActivity(intent)
+                    }
                 }
                  })
         }

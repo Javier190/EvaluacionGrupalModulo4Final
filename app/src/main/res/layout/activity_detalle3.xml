@@ -6,72 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".Detalle1">
 
+
     <ImageView
-        android:id="@+id/image1"
-        android:layout_width="383dp"
-        android:layout_height="266dp"
+        android:id="@+id/image3"
+        android:layout_width="273dp"
+        android:layout_height="249dp"
         android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/portada_el_universo_elegante_brian_greene" />
+        />
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tv3"
         android:layout_width="228dp"
         android:layout_height="51dp"
         android:gravity="center"
-        android:text="TextView"
+        android:text="@string/label3"
         android:textAlignment="center"
-        android:textColor="@color/yellow_app"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="@+id/image1"
-        app:layout_constraintEnd_toEndOf="@+id/image1"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/image1"
-        app:layout_constraintTop_toTopOf="@+id/image1"
-        app:layout_constraintVertical_bias="0.725" />
-
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/image3"
+        app:layout_constraintEnd_toEndOf="@+id/image3"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/image3"
+        app:layout_constraintTop_toTopOf="@+id/image3"
+        app:layout_constraintVertical_bias="0.909" />
 
     <TextView
-        android:id="@+id/tv_descripcion"
+        android:id="@+id/tv_descripcion3"
         android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/descrip3"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_height="66dp"
-        android:layout_marginEnd="36dp"
-        android:text="@string/descr1"
-        app:layout_constraintBottom_toTopOf="@+id/et_coment"
+        app:layout_constraintBottom_toTopOf="@+id/et_coment3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image1"
+        app:layout_constraintTop_toBottomOf="@+id/image3"
         app:layout_constraintVertical_bias="0.542" />
 
-
-
     <EditText
-        android:id="@+id/et_coment"
+        android:id="@+id/et_coment3"
         android:layout_width="369dp"
         android:layout_height="44dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
         android:hint="@string/hint"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_guardar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_guardar3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_guardar"
+        android:id="@+id/btn_guardar3"
         android:layout_width="108dp"
         android:layout_height="36dp"
         android:textSize="12dp"
         android:layout_marginBottom="16dp"
         android:text="Comentar"
-        app:layout_constraintBottom_toTopOf="@+id/tv_comentarios"
+        app:layout_constraintBottom_toTopOf="@+id/tv_comentarios3"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/tv_comentarios"
+        android:id="@+id/tv_comentarios3"
         android:layout_width="358dp"
         android:layout_height="84dp"
         android:layout_marginBottom="32dp"

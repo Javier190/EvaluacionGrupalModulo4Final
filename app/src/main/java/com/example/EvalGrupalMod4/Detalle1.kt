@@ -2,6 +2,7 @@ package com.example.EvalGrupalMod4
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -29,14 +30,15 @@ class Detalle1 : AppCompatActivity() {
         imagen = findViewById(R.id.image1) as ImageView
         titulo = findViewById(R.id.tv1) as TextView
         texto = findViewById(R.id.tv_descripcion) as TextView
+
         et_coment = findViewById(R.id.et_coment) as EditText
         btn_guardar = findViewById(R.id.btn_guardar) as Button
         var tv_comentarios = findViewById(R.id.tv_comentarios) as TextView
 
         imagen.loadUrl(resources.getString(R.string.el_universo_elegante))
         titulo.setText(resources.getString(R.string.label1))
-        texto.setText(resources.getString(R.string.descr1))
 
+        texto.setMovementMethod(ScrollingMovementMethod())
         //Aqui se guarda nuestro comentario
         tv_comentarios.text = SharedApp.prefs.detalle1
 

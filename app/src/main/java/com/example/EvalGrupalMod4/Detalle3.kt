@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.squareup.picasso.Picasso
 
-class Detalle2 : AppCompatActivity() {
+class Detalle3 : AppCompatActivity() {
 
     lateinit var imagen : ImageView
     lateinit var titulo : TextView
@@ -20,28 +20,29 @@ class Detalle2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detalle2)
+        setContentView(R.layout.activity_detalle3)
 
         fun ImageView.loadUrl(url: String) {
             Picasso.with(context).load(url).into(imagen)
         }
 
-        imagen = findViewById(R.id.image2) as ImageView
-        titulo = findViewById(R.id.tv2) as TextView
-        texto = findViewById(R.id.tv_descripcion2) as TextView
-        et_coment = findViewById(R.id.et_coment2) as EditText
-        btn_guardar = findViewById(R.id.btn_guardar2) as Button
-        var tv_comentarios = findViewById(R.id.tv_comentarios2) as TextView
+        imagen = findViewById(R.id.image3) as ImageView
+        titulo = findViewById(R.id.tv3) as TextView
+        texto = findViewById(R.id.tv_descripcion3) as TextView
+        et_coment = findViewById(R.id.et_coment3) as EditText
+        btn_guardar = findViewById(R.id.btn_guardar3) as Button
+        var tv_comentarios = findViewById(R.id.tv_comentarios3) as TextView
         texto.setMovementMethod(ScrollingMovementMethod())
-        imagen.loadUrl(resources.getString(R.string.el_tejido_cosmos))
-        titulo.setText(resources.getString(R.string.label2))
+
+        imagen.loadUrl(resources.getString(R.string.la_particula_divina))
+        titulo.setText(resources.getString(R.string.label3))
 
         //Aqui se guarda nuestro comentario
-        tv_comentarios.text = SharedApp.prefs.detalle2
+        tv_comentarios.text = SharedApp.prefs.detalle3
 
         btn_guardar.setOnClickListener(){
-            SharedApp.prefs.detalle2 = et_coment.text.toString()
-            tv_comentarios.text = SharedApp.prefs.detalle2
+            SharedApp.prefs.detalle3 = et_coment.text.toString()
+            tv_comentarios.text = SharedApp.prefs.detalle3
             et_coment.setText("")
 
             if (tv_comentarios.text.isNotEmpty()){

@@ -9,5 +9,8 @@
     <string name="label3">La Particula Divina</string>
     <string name="label4">Agujeros Negros - NetGeo</string>
     <string name="descr1">Brian Greene nos explica en este libro cómolas grandes teorías de la relatividad y de la mecánica cuántica nos han conducido al mayor problema con que se enfrenta la Física hoy en día: la búsqueda de una ley que unifique a todas las demás, una ley que Einstein persiguió en vano durante treinta años y a la que se le da el nombre de «teoría de supercuerdas». Con maestría, claridad y un profundo conocimiento, Greene nos ofrece en la aportación más brillante que se ha escrito hasta ahora para hacer accesible al gran público este último misterio de la naturaleza</string>
-    <string name="descr2">Un Best Seller imperdible del Fisico Teorico Brian Greene</string>
+    <string name="descrip2">Un Best Seller imperdible del Fisico Teorico Brian Greene</string>
+    <string name="descrip3">Lederman consigue el milagro de hacernos fácilmente comprensibles los aspectos más complejos de la física actual, nos lleva a apasionarnos por los misterios de la materia y, lo que puede parecer más sorprendente, consigue divertirnos. </string>
+    <string name="descrip4">Los agujeros negros son los restos fríos de antiguas estrellas, tan densas que ninguna partícula material, ni siquiera la luz, es capaz de escapar a su poderosa fuerza gravitatoria</string>
+    <string name="hint">Agrega un Comentario</string>
 </resources>
