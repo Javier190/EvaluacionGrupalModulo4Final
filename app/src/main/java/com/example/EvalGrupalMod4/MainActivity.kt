@@ -7,8 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    //recordar poner Strings en Strinsxml
-
     lateinit var mRecyclerView: RecyclerView
     val mAdapter: RecyclerAdapter = RecyclerAdapter()
 
@@ -24,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         mRecyclerView.layoutManager = LinearLayoutManager(this)
         mAdapter.RecyclerAdapter(getlibros(), this)  //recuerda que el adapter del recycler pide 2 parametros, contexto y la lista
         mRecyclerView.adapter = mAdapter  //Este es como el metodo mRecyclerView.setadapter(madapter) de JAVA
-
     }
 
     fun getlibros(): MutableList<Libro> {
